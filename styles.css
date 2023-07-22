@@ -11,3 +11,10 @@ body {
 .github-link {
   padding: 5%;
 }
+
+input {
+  padding: 5%;
+  margin-top: 10%;
+  margin-left: 20%;
+  display: block;
+}

@@ -15,12 +15,24 @@
   </head>
   <body>
     <div class="container">
-      <div class="card mb-3" style="max-width: 540px">
+        <div class="weather-app">
+      <div class="card mb-3" style="max-width: 600px">
         <div class="row g-0">
-          <div class="col-md-4"> 
           
+          <form id = "search-form">
+            <div class="row">
+                <div class="col 9">
+            <input type= "search" placeholder="Enter city..." class="form-control" id= "city-input" autocomplete="off"/>
+        </div>
+        <div class="col 3">
+            <input type="submit" value="search" class="btn btn-primary w-50"/>
+        </div>
+        </div>
+          </form>
+          <div class="col-md-4"> 
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="clouds"
               id="icon"
               class="weather-icon"
             />
@@ -48,6 +60,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     <a
       href="https://github.com/tonia-3/my-weather-app"
