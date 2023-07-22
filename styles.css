@@ -1,0 +1,13 @@
+body {
+  margin: 5% auto;
+  padding: 5%;
+  text-align: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.weather-icon {
+  margin: auto;
+  width: 150px;
+}
+.github-link {
+  padding: 5%;
+}

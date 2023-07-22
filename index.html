@@ -9,6 +9,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>My Weather App</title>
   </head>
   <body>
@@ -16,14 +17,21 @@
       <div class="card mb-3" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="..." />
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              class="weather-icon"
+              alt="..."
+            />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Nairobi</h5>
-              <p class="card-text"><span class="temperature">22°C |°F</span></p>
-              <p class="humidity">Humidity 30%</p>
-              <p class="wind">Wind Speed 90 km/h</p>
+              <h1 class="card-title">Nairobi</h1>
+
+              <h2 class="card-text">
+                <span class="temperature">22°C |<a href="">°F</a></span>
+              </h2>
+              <p class="humidity">Humidity: 30%</p>
+              <p class="wind">Wind Speed: 90 km/h</p>
               <p class="card-text">
                 <small class="text-body-secondary"
                   >Last updated 3 mins ago</small
@@ -34,6 +42,12 @@
         </div>
       </div>
     </div>
-    <a href="">Open source-code by Tonia Chebet</a>
+    <a
+      href="https://github.com/tonia-3/my-weather-app"
+      class="github-link"
+      target="_blank"
+      >Open source-code</a
+    >
+    by Tonia Chebet
   </body>
 </html>
