@@ -11,10 +11,15 @@ body {
 .github-link {
   padding: 5%;
 }
-
+a {
+  text-decoration: none;
+}
 input {
   padding: 5%;
   margin-top: 10%;
   margin-left: 20%;
   display: block;
+}
+a.active {
+  color: black;
 }
